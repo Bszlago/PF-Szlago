@@ -1,0 +1,24 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "description": "Proyecto Bufalo Brandon Szlago",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bszlago/bufalo-web-bszlago.git"
+  },
+  "keywords": [
+    "web",
+    "bufalo",
+    "sass"
+  ],
+  "author": "Brandon Szlago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bszlago/PreEntrega2-Szlago.git"
+  },
+  "homepage": "https://github.com/Bszlago/bufalo-web-bszlago#readme"
+}
