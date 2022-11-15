@@ -4,7 +4,9 @@
   "description": "Proyecto Bufalo Brandon Szlago",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss origen.scss styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/Bszlago/PreEntrega2-Szlago.git"
   },
-  "homepage": "https://github.com/Bszlago/bufalo-web-bszlago#readme"
+  "homepage": "https://github.com/Bszlago/bufalo-web-bszlago#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
 }
