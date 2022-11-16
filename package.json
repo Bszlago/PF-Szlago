@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bszlago/PreEntrega2-Szlago.git"
+    "url": "git+'https://github.com/Bszlago/bufalo-web-bszlago.git'"
   },
   "keywords": [
     "web",
