@@ -39,6 +39,20 @@ a {
     display: inline-block;
 }
 
+.navegador__link {
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.navegador__link:hover {
+    background-color: #6eb8f5;
+    border: solid #ffffff;
+    border-radius: 10px;
+}
+
 .logo_bufalo {
     max-width: 750px;
     height: 600px;
@@ -47,6 +61,12 @@ a {
     display: flex;
     justify-content: center;
     margin: auto;
+}
+
+.remeras {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px;
 }
 
 .remeras_1 {
@@ -202,35 +222,36 @@ a {
 
 @media screen and (max-width: 320px) {
     .encabezado {
-        flex-direction: column;
-    }
+            flex-direction: column;
+        }
 
-    .logo_texto img {
-        width: 80%;
-        height: 70%;
-    }
+        .logo_texto img {
+            width: 80%;
+            height: 70%;
+        }
+        
+        .navegador__link {
+            font-size: x-small;
+            padding: 5px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
 
-    .navegador__link {
-        font-size: x-small;
-        padding: 5px;
-        margin-bottom: 10px;
-        display: inline-block;
-    }
+        .remeras {
+            grid-template-rows: 25%;
+            grid-template-columns: 100%;
+        }
 
-    .remeras {
-        grid-template-rows: 25%;
-        grid-template-columns: 100%;
-    }
+        .logo_bufalo {
+            width: auto;
+            height: auto;
+        }
 
-    .logo_bufalo {
-        width: auto;
-        height: auto;
-    }
+        .pie {
+            position: relative;
+            font-size: small;
+        }
 
-    .pie {
-        position: relative;
-        font-size: small;
-    }
         .formulario {
             width: 80%;
             margin-top: 0%;
@@ -238,13 +259,13 @@ a {
             padding-bottom: 70px;
             font-size: small;
         }
-    
+
         .boton_enviar {
             width: auto;
             position: absolute;
             right: 45px;
         }
-    
+
         .texto {
             font-size: small;
             margin-top: 0%;
@@ -253,5 +274,5 @@ a {
             padding-left: 5%;
             text-align: justify;
         }
-    
-        }
+
+}
