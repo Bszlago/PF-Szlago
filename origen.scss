@@ -13,3 +13,245 @@ body {
 a {
     text-decoration: none;
 }
+
+.encabezado {
+    display: flex;
+    min-height: 90px;
+    background-color: #2196f3;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_texto {
+    display: flex;
+    width: 150px;
+    height: 70px;
+    margin-left: 40px;
+    justify-content: flex-start;
+}
+
+.navegador__lista {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navegador__item {
+    display: inline-block;
+}
+
+.logo_bufalo {
+    max-width: 750px;
+    height: 600px;
+    padding: 25px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.remeras_1 {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.remeras_2 {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.remeras_3 {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.remeras_4 {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton_compra {
+    background-color: #2196f3;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.boton_compra:hover {
+    background-color: #6eb8f5;
+}
+
+.pie {
+    background-color: #2196f3;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.texto {
+    margin: 10px;
+    padding: 30px;
+    padding-top: 50px;
+    min-height: 100vh;
+    font-size: large;
+    text-align: justify;
+}
+
+.consultas {
+    margin: 10px;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.formulario {
+    width: 300px;
+    padding: 100px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.formulario label {
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.boton_enviar {
+    background-color: #2196f3;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-color: white;
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    right: 39%;
+    width: 10%;
+}
+
+.boton_enviar:hover {
+    background-color: #6eb8f5;
+}
+
+@media screen and (max-width: 799px) {
+    .encabezado {
+        flex-direction: column;
+    }
+
+    .logo_texto {
+        margin-top: 15px;
+    }
+
+    .remeras {
+        grid-template-rows: 50% 50%;
+    }
+
+    .logo_bufalo img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .boton_enviar {
+        position: absolute;
+        right: 250px;
+        width: 15%;
+    }
+
+    .boton_compra {
+        width: 40%;
+        margin: auto;
+    }
+
+    .texto {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .encabezado {
+        flex-direction: column;
+    }
+
+    .logo_texto img {
+        width: 80%;
+        height: 70%;
+    }
+
+    .navegador__link {
+        font-size: x-small;
+        padding: 5px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .remeras {
+        grid-template-rows: 25%;
+        grid-template-columns: 100%;
+    }
+
+    .logo_bufalo {
+        width: auto;
+        height: auto;
+    }
+
+    .pie {
+        position: relative;
+        font-size: small;
+    }
+        .formulario {
+            width: 80%;
+            margin-top: 0%;
+            padding: 10%;
+            padding-bottom: 70px;
+            font-size: small;
+        }
+    
+        .boton_enviar {
+            width: auto;
+            position: absolute;
+            right: 45px;
+        }
+    
+        .texto {
+            font-size: small;
+            margin-top: 0%;
+            padding-top: 10%;
+            margin-left: 0%;
+            padding-left: 5%;
+            text-align: justify;
+        }
+    
+        }
