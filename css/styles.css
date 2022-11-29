@@ -17,47 +17,6 @@ a{
     align-items: center;
 }
 
-.logo_texto{
-    display: flex;
-    width: 150px;
-    height: 70px;
-    margin-left: 40px;
-    justify-content: flex-start;
-}
-
-.navegador__lista{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.navegador__item{
-    display: inline-block;
-}
-
-.navegador__link{
-    color: white;
-    display: inline-block;
-    padding: 30px;
-    font-weight: bold;
-    font-size: large;
-}
-
-.navegador__link:hover{
-    background-color: #6eb8f5;
-    border: solid #ffffff;
-    border-radius: 10px;
-}
-
-.logo_bufalo {
-    max-width: 750px;
-    height: 600px;
-    padding: 25px;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-
 .remeras{
     display: grid;
     grid-template-columns: 50% 50%;
