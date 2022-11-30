@@ -1,0 +1,30 @@
+.texto {
+    margin: 10px;
+    padding: 30px;
+    padding-top: 50px;
+    min-height: 100vh;
+    font-size: large;
+    text-align: justify;
+}
+
+.consultas {
+    margin: 10px;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.formulario {
+    width: 300px;
+    padding: 100px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.formulario label {
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
