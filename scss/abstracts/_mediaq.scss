@@ -1,0 +1,90 @@
+@media screen and (max-width: 799px) {
+    .encabezado{
+        flex-direction: column;
+    }
+
+    .logo_texto{
+        margin-top: 15px;
+    }
+    
+    .remeras{
+        grid-template-rows: 50% 50%;
+    }
+
+    .logo_bufalo img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .boton_enviar{
+        position:absolute;
+        right: 250px;
+        width: 15%;
+    }
+
+    .boton_compra{
+        width: 40%;
+        margin: auto;
+    }
+
+    .texto{
+        text-align:justify;
+    }
+}
+  
+@media screen and (max-width: 320px){
+    .encabezado {
+        flex-direction: column;
+    }
+
+    .logo_texto img{
+        width: 80%;
+        height: 70%;
+    }
+
+    .navegador__link{
+        font-size: x-small;
+        padding: 5px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .remeras{
+        grid-template-rows: 25%;
+        grid-template-columns: 100%;
+    }
+
+    .logo_bufalo{
+        width: auto;
+        height: auto;
+    }
+
+    .pie{
+        position: relative;
+        font-size: small;
+    }
+
+    .formulario{
+        width: 80%;
+        margin-top: 0%;
+        padding: 10%;
+        padding-bottom: 70px;
+        font-size: small;
+    }
+
+    .boton_enviar{
+        width: auto;
+        position: absolute;
+        right: 45px;
+    }
+
+    .texto{
+        font-size: small;
+        margin-top: 0%;
+        padding-top: 10%;
+        margin-left: 0%;
+        padding-left: 5%;
+        text-align:justify;
+    }
+
+}
