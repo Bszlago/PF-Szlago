@@ -4,6 +4,11 @@
     grid-template-rows: 600px 600px;
 }
 
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .remeras_1{
     width: auto;
     height: auto;
@@ -11,8 +16,7 @@
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
  }
  
  .remeras_2{
@@ -22,8 +26,7 @@
      padding: 20px;
      background-color: white;
      border-radius: 10px;
-     display: flex;
-     flex-direction: column;
+     @include flex-column;
  }
  
  .remeras_3{
@@ -33,8 +36,7 @@
      padding: 20px;
      background-color: white;
      border-radius: 10px;
-     display: flex;
-     flex-direction: column;
+     @include flex-column;
  }
  
  .remeras_4{
@@ -44,7 +46,6 @@
      padding: 20px;
      background-color: white;
      border-radius: 10px;
-     display: flex;
-     flex-direction: column;
+     @include flex-column;
  }
  
