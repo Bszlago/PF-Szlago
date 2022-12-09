@@ -28,7 +28,7 @@ a {
 
 .navegador__link:hover {
   background-color: #6eb8f5;
-  border: solid #ffffff;
+  border: solid white;
   border-radius: 10px; }
 
 .logo_bufalo {
