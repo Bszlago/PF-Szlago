@@ -3,8 +3,14 @@
         flex-direction: column;
     }
 
-    .logo_texto{
+    .Title{
+        font-size: medium;
+        margin-left: auto;
+    }
+
+    .logo_texto img{
         margin-top: 15px;
+        width: auto;
     }
     
     .remeras{
@@ -13,7 +19,7 @@
 
     .logo_bufalo img {
         width: 90%;
-        height: 90%;
+        height: 80%;
     }
 
     .boton_enviar{
@@ -30,11 +36,24 @@
     .texto{
         text-align:justify;
     }
+
+    .navegador__link{
+        font-size: medium;
+        padding: 10px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
 }
   
+
 @media screen and (max-width: 320px){
     .encabezado {
         flex-direction: column;
+    }
+
+    .Title{
+        font-size: x-small;
+        margin-left: auto;
     }
 
     .logo_texto img{
@@ -52,6 +71,7 @@
     .remeras{
         grid-template-rows: 25%;
         grid-template-columns: 100%;
+        width: auto;
     }
 
     .logo_bufalo{

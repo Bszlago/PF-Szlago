@@ -104,6 +104,12 @@ a {
 .boton_compra:hover, .boton_enviar:hover {
   background-color: #6eb8f5; }
 
+.Title {
+  text-align: center;
+  margin-left: auto;
+  margin-top: 10px;
+  font-size: x-large; }
+
 .texto {
   font: "Open sans, sans-serif";
   margin: 10px;
@@ -147,13 +153,17 @@ a {
 @media screen and (max-width: 799px) {
   .encabezado {
     flex-direction: column; }
-  .logo_texto {
-    margin-top: 15px; }
+  .Title {
+    font-size: medium;
+    margin-left: auto; }
+  .logo_texto img {
+    margin-top: 15px;
+    width: auto; }
   .remeras {
     grid-template-rows: 50% 50%; }
   .logo_bufalo img {
     width: 90%;
-    height: 90%; }
+    height: 80%; }
   .boton_enviar {
     position: absolute;
     right: 250px;
@@ -162,11 +172,19 @@ a {
     width: 40%;
     margin: auto; }
   .texto {
-    text-align: justify; } }
+    text-align: justify; }
+  .navegador__link {
+    font-size: medium;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: inline-block; } }
 
 @media screen and (max-width: 320px) {
   .encabezado {
     flex-direction: column; }
+  .Title {
+    font-size: x-small;
+    margin-left: auto; }
   .logo_texto img {
     width: 80%;
     height: 70%; }
@@ -177,7 +195,8 @@ a {
     display: inline-block; }
   .remeras {
     grid-template-rows: 25%;
-    grid-template-columns: 100%; }
+    grid-template-columns: 100%;
+    width: auto; }
   .logo_bufalo {
     width: auto;
     height: auto; }

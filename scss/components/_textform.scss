@@ -1,5 +1,12 @@
 $font: ('Open sans, sans-serif');
 
+.Title{
+    text-align: center;
+    margin-left: auto;
+    margin-top: 10px;
+    font-size: x-large;
+}
+
 .texto {
     font: $font;
     margin: 10px;
